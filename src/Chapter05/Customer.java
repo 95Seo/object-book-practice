@@ -1,4 +1,4 @@
-package Chapter02;
+package Chapter05;
 
 public class Customer {
     private String name;
