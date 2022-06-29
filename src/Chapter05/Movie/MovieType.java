@@ -1,4 +1,4 @@
-package Chapter05;
+package Chapter05.Movie;
 
 public enum MovieType {
     AMOUNT_DISCOUNT,    // 금액 할인 정책

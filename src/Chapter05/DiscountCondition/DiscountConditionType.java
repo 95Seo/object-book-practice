@@ -1,4 +1,4 @@
-package Chapter05;
+package Chapter05.DiscountCondition;
 
 public enum DiscountConditionType {
     SEQUENCE,   // 순번 조건

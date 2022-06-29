@@ -1,11 +1,14 @@
-package Chapter05;
+package Chapter05.Movie;
+
+import Chapter05.DiscountCondition.DiscountCondition;
+import Chapter05.Money;
 
 import java.time.Duration;
 
 public class PercentDiscountMovie extends Movie {
     private double percent;
 
-    public PercentDiscountMovie(String title, Duration runningTime, Money fee, double percent, DiscountCondition ... discountConditions) {
+    public PercentDiscountMovie(String title, Duration runningTime, Money fee, double percent, DiscountCondition... discountConditions) {
         super(title, runningTime, fee, discountConditions);
         this.percent = percent;
     }
