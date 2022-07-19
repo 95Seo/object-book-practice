@@ -1,6 +1,5 @@
 package Chapter05;
 
-// 영화 "예매"를 구현한 클래스
 public class Reservation {
     private Customer customer;
     private Screening screening;
